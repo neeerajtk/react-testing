@@ -1,9 +1,14 @@
 import React from "react";
-
-const title = "Hello React";
+import Button from "./components/button/button";
 
 function App() {
-  return <div>{title}</div>;
+  return (
+    <div>
+      <header className="App-header">
+        <Button label="Click me please !" />
+      </header>
+    </div>
+  );
 }
 
 export default App;
